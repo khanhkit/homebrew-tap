@@ -2,29 +2,29 @@ class Pxgo < Formula
   desc "HTTP/HTTPS proxy with NTLM and Kerberos authentication"
   homepage "https://github.com/khanhkit/pxgo"
   license "MIT"
-  version "0.5.1"
+  version "0.6.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.5.1/pxgo_darwin_arm64.tar.gz"
-      sha256 "f9df209c10b22a6065f80ff931bfeec2cfee867a9b75c8a204e74e1952a6725d
-1ab9ef841b16130ed1a0ab62238bef1197ab6b15d5b35fa659d9eed9d40c75c2"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.6.0/pxgo_darwin_arm64.tar.gz"
+      sha256 "e028f934013fdb63e8482149125337f7b5e2d765a60599f35db3fadb59f8fe17
+cc742271d5c53786142baa33fce5e9db377dae6dfecbd36b8f80cc78ec22930e"
     else
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.5.1/pxgo_darwin_amd64.tar.gz"
-      sha256 "12b5e5b8dfe0040ef3bbd010c28937eaa2cdc9a57f24879f7baa98b99b5d8dce
-f62787e29396433ea9d2b692cb24848d014ea714a369c8a23f1c3f6fdd0eeac9"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.6.0/pxgo_darwin_amd64.tar.gz"
+      sha256 "8edb9a9618307eb4d5e05f5432ccd1c54915122cca0d3232f8342cdd87a4c3a1
+340dfe8441ee442f441d6e4f61f517d45e817a8f952931fc3540467c51925890"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.5.1/pxgo_linux_arm64.tar.gz"
-      sha256 "94d17e759f0354574e524882512980d758e1f469996746b2fd6fbf538a0e2328
-288b89628fe254a2e011924f119ceb510b8e6981a3ae90c9afb127a3d118869d"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.6.0/pxgo_linux_arm64.tar.gz"
+      sha256 "602010459b8fb6f1a74cea8018f8b44dbab14ae0afb144e66419faaf9ea36bce
+548c008395cc2aebb6ad3b2a99b7dd83ddef74beb4f9bc3b574bcd87935783d5"
     else
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.5.1/pxgo_linux_amd64.tar.gz"
-      sha256 "d6a5b85892eb2cfccdd8dd20a593ac7b43e5a8c862631703eedbe27e48c51706
-3da782d92a6663ea7cf9ec56062132a3da778862eda0f5a43dbfd1209e042989"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.6.0/pxgo_linux_amd64.tar.gz"
+      sha256 "243e0d553544040220984220d2a8d4af17c10e245e9b6ad7650cdb75f70f4d11
+a11829b02dd5bf55a571ad0c28af72d0e61c43cf4dee5a967049081631528d14"
     end
   end
 
