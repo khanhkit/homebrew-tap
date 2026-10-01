@@ -2,25 +2,25 @@ class Pxgo < Formula
   desc "HTTP/HTTPS proxy with NTLM and Kerberos authentication"
   homepage "https://github.com/khanhkit/pxgo"
   license "MIT"
-  version "0.7.1"
+  version "0.8.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.7.1/pxgo_darwin_arm64.tar.gz"
-      sha256 "881ef0bddda523992d7b54de64db4f41bd1a8228c0be5bfa849a4bd1f20050a9"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.8.0/pxgo_darwin_arm64.tar.gz"
+      sha256 "e7d6e17ad95120b41d0ff7a1998c71dbb955dde31c2ff68417ab4b68ae7b9a51"
     else
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.7.1/pxgo_darwin_amd64.tar.gz"
-      sha256 "0e89625f3144fb48231625655b4e28ecce2e703ff7bfffe289450971271de292"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.8.0/pxgo_darwin_amd64.tar.gz"
+      sha256 "2336a2162db59ffa654dc276229c41e132bc378588bc09d27f2ac49a9626d68a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.7.1/pxgo_linux_arm64.tar.gz"
-      sha256 "4175ef9e5c414bb3ad33cf654a1bd775f117ee6a358d70b89ac944ee3e5808b4"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.8.0/pxgo_linux_arm64.tar.gz"
+      sha256 "21cc17c864fcf949e69aeb9108fdd6225d5f0981e1391766aa622f160dfefeb7"
     else
-      url "https://github.com/khanhkit/pxgo/releases/download/v0.7.1/pxgo_linux_amd64.tar.gz"
-      sha256 "4f3e6f2b857b9def9d2a39afc8b67b78317d37dab87086e344c25b5b47e1acdb"
+      url "https://github.com/khanhkit/pxgo/releases/download/v0.8.0/pxgo_linux_amd64.tar.gz"
+      sha256 "36eb9c5ad66fa2bf0f76070dc8dc75dfd36c14ffe55518a5002c3a5dec545d9b"
     end
   end
 
